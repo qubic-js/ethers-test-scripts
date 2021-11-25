@@ -1,5 +1,7 @@
 {
   "scripts": {
+    "sighashes": "yarn hardhat sighashes",
+    "sighash": "yarn hardhat sighash",
     "metadata:721": "yarn hardhat metadata721",
     "metadata:1155": "yarn hardhat metadata1155",
     "mintCreatures": "yarn hardhat run ./scripts/mintCreatures.ts"
