@@ -14,19 +14,19 @@ export default {
   defaultNetwork: "rinkeby",
   networks: {
     mainnet: {
-      accounts: [process.env.PRIVATE_KEY],
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
       url: `https://mainnet.infura.io/v3/${process.env.INFURA_API_KEY}`,
     },
     rinkeby: {
-      accounts: [process.env.PRIVATE_KEY],
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
       url: `https://rinkeby.infura.io/v3/${process.env.INFURA_API_KEY}`,
     },
     mumbai: {
-      accounts: [process.env.PRIVATE_KEY],
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
       url: `https://polygon-mumbai.infura.io/v3/${process.env.INFURA_API_KEY}`,
     },
     polygon: {
-      accounts: [process.env.PRIVATE_KEY],
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
       url: `https://polygon-mainnet.infura.io/v3/${process.env.INFURA_API_KEY}`,
     },
   },
