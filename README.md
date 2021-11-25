@@ -1,14 +1,15 @@
 # ethers-test-scripts
 
 # Setup
-```
-yarn && yarn hardhat compile
-```
 
 Prepare your .env file
 ```
 // Copy the example .env and fill your `INFURA_API_KEY`
 cp .env.example .env
+```
+
+```
+yarn && yarn hardhat compile
 ```
 
 ---
