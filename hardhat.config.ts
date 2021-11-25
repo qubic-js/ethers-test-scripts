@@ -1,4 +1,4 @@
-import "@nomiclabs/hardhat-waffle";
+import "@nomiclabs/hardhat-ethers";
 import "hardhat-deploy";
 import * as dotenv from "dotenv";
 
