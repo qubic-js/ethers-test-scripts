@@ -41,5 +41,11 @@ export default {
     BraveSeriesMoreWant: {
       rinkeby: "0x8B12160A998890034Af14a5458b0e1cBB3E0865e",
     },
+    testXOR: {
+      rinkeby: "0x377BE3f2A7931f7809733eA112fad97B73D5390f",
+    },
+    CreatureBox: {
+      rinkeby: "0x438F492D82bb7a3414cA1c8c39485d125F169023",
+    },
   },
 };
